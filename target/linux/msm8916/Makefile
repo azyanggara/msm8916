@@ -15,8 +15,8 @@ FEATURES:=fpu usb ext4 display rtc usbgadget gpio
 SUBTARGETS:=msm8916
 MAINTAINER:=HandsomeYingyan <handsomeyingyan@gmail.com>
 
-KERNEL_PATCHVER:=5.10
-KERNEL_TESTING_PATCHVER:=5.10
+KERNEL_PATCHVER:=5.15
+KERNEL_TESTING_PATCHVER:=5.15
 KERNELNAME:=Image.gz dtbs
 
 define Target/Description
